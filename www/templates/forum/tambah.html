@@ -1,0 +1,29 @@
+<ion-view view-title="Input Data Forum">
+  <ion-content class="padding">
+    <div class="list">
+		<label class="item item-input item-stacked-label">
+			 <span class="input-label">Nama </span>
+			<input type="text" ng-model="thread.nama" placeholder="Masukkan Nama Mahasiswa/i">
+		</label>
+
+		<label class="item item-input item-stacked-label">
+			<span class="input-label">NPM</span>
+			<input type="text" ng-model="thread.npm" placeholder="Masukkan NPM">
+		</label>
+
+		<label class="item item-input item-stacked-label">
+			<span class="input-label">Jurusan</span>
+			<input type="text" ng-model="thread.jurusan" placeholder="Masukkan Nama Jurusan">
+		</label>
+
+		<label class="item item-input item-stacked-label">
+			<span class="input-label">Pesan</span>
+			<input type="text" ng-model="thread.pesan" placeholder="Tulis Pesan">
+		</label>
+
+		<button class="button button-positive button-block" ng-click="simpan(thread);">
+			Save
+        </button>
+	</div>
+  </ion-content>
+</ion-view>
